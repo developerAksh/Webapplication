@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Login Page</title>
+ <link rel = "stylesheet" type="text/css" href="form.css">
+	<style>
+body {
+  background-image: url('WD C.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color : #484848;
+}
+h1
+{
+    color :Blue;
+    text-align : center;
+    font-family: "SIMPSON";
+	font-size: 50px;
+}
+.form
+{
+    align:"center";
+}
+ body{
+		height:100%;
+	}
+
+	.login-form{
+		display:table; height:100%; margin: 0 auto;
+		font-size:35px;
+	}
+
+	.submit-form{
+		display:table-cell; vertical-align:center;
+		
+	}	
+	label {
+      display:table-cell;
+      margin-bottom: 20px;
+  }
+
+  input,
+  label {
+      margin: auto;
+  }
+  input[type='submit'],
+  label {
+      margin-top: 1rem;
+  }
+
+</style>
+</head>
+<body>
+ 
+
+<h1>Welcome to login page</h1>
+<div class="login-form">
+<div class="submit-form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+</div>
+<br>
+<div class="login-form">
+<div class="submit-form">
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+</div>
+<br>
+<div class="login-form">
+<div class="submit-form">
+<form method="get" action="Menupage.html">
+    <input type="submit" value="Sign in"style="font-size:35px;">
+	</div>
+	</div>
+</form>
+</body>
